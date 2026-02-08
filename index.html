@@ -1,76 +1,83 @@
-<link rel="stylesheet" href="styles.css">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>HTML Practice</title>
+    <meta charset="UTF-8">
+    <title>Alice Yi Bio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+<header>
+    <h1>Alice Yi</h1>
+</header>
+
+<main>
     <section>
-        <h2>Links</h2>
+        <h2>About Me</h2>
+        <div class="decorative-row">
+            <img src="images/pastel.png" alt="" class="decorative-image">
+            <img src="images/pastel.png" alt="" class="decorative-image">
+        </div>
+        <img
+            src="images/Alice_Yi.jpeg"
+            alt="Photo of Alice Yi smiling holding flowers with her thumb up"
+            class="profile-photo"
+        >
         <p>
-            Visit my 
-            <a href="https://youtube.com/@allybaskets">
-                YouTube channel
-                </a>
-            to watch basketball clips. Hey guys I post basketball edits be sure to like and subscribe to my channel.
-
-            </p>
-        </section>
-
+            Howdy! My name is Alice Yi and I am a senior computer science major at Texas A&M. I am interested in how technology can be
+            designed to be more accessible, particularly in the mobile sphere. I also enjoy learning about how thoughtful design can be universally beneficial and how we can continue to expand our idea of accessibility in technology.
+        </p>
+    </section>
     <section>
-        <h2>Favorite basketball teams</h2>
+        <h2>Accessibility Interests</h2>
         <ul>
-            <li>Houston Rockets</li>
-            <li>Los Angeles Lakers</li>
-            <li>New York Knicks</li>
-            </ul>
-        <h2>Top Three Rockets Players</h2>
+            <li>
+                <a href="https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html">
+                    Gesture-based navigation
+                </a>
+            </li>
+            <li>
+                <a href="https://developer.android.com/guide/topics/ui/notifiers/notifications#accessibility">
+                    Accessible notifications and alerts
+                </a>
+            </li>
+        </ul>
+    </section>
 
-        <ol>
-            <li>Kevin Durant</li>
-            <li>Alperen Sengun</li>
-            <li>Jabari Smith Jr.</li>
-            </ol>
-        </section>
-
-    <section>
-        <h2>My Favorite Basketball Image of All Time</h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5YymB6UCr4W_mclVlrnAvq6iIrXCbIVN9PQ&s" alt="Image of Lebron James dunking with DWade posing">
-
-            <img src="https://i.pinimg.com/236x/70/a3/0d/70a30d722a74911efe4bf54a7cae22cd.jpg" alt="Decorative image of a basketball">
-        </section>
 
     <section>
-        <h2>Rockets Starting 5</h2>
-        <table border="1">
-            <tr>
-                <th>Position</th>
-                <th>Name</th>
-                </tr>
-            <tr>
-                <td>Point Guard</td>
-                <td>Amen Thompson</td>
-                </tr>
-            <tr>
-                <td>Shooting Guard</td>
-                <td>Kevin Durant</td>
-                </tr>
-            <tr>
-                <td>Small Forward</td>
-                <td>Tari Eason</td>
-                </tr>
-            <tr>
-                <td>Power Forward</td>
-                <td>Jabari Smith Jr.</td>
-                </tr>
-            <tr>
-                <td>Center</td>
-                <td>Alperen Sengun</td>
-                </tr>
-            </table>
-        </section>
+        <h2>Let's Connect</h2>
 
+        <p>
+            Feel free to message me!
+        </p>
+
+        <form action="mailto:aliceeyii02@tamu.edu" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Contact Form</legend>
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Send</button>
+            </fieldset>
+        </form>
+        <p>
+            View all class bios on the
+            <a href="https://docs.google.com/document/d/10nTEkUx4IVWT_oC9CfM5BCgIWGQVcWJRhelf6fSZpuw/edit?usp=sharing">Web Page Bio Links page</a>.
+        </p>
+    </section>
+
+</main>
+
+<!-- Decorative image -->
 
 </body>
-
 </html>
