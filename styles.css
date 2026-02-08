@@ -1,54 +1,87 @@
+/* Typography */
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 235, 245);
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/* Layout */
+header {
+    padding: 1.5rem;
+    border-bottom: 3px solid #cccccc;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
 }
 
 section {
-    background-color: white;
-    margin: 25px;
-    padding: 20px;
-    border: 2px solid #cccccc;
+    margin-bottom: 2rem;
 }
 
-h2 {
-    color: #c8102e;
-    font-weight: bold;
-    margin-bottom: 10px;
+.profile-photo {
+    max-width: 400px;
+    border: 2px solid #888888;
+    padding: 0.25rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-p {
-    color: #333333;
-    font-size: 16px;
-    padding: 10px;
+
+
+label {
+    display: block;
+    margin-top: 0.75rem;
 }
 
-a {
-    color: blue;
-    font-weight: bold;
+input,
+textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.4rem;
 }
 
-ul, ol {
-    margin-left: 30px;
-}
-
-img {
-    margin: 10px;
-    padding: 5px;
-    border: 2px solid black;
+button {
+    margin-top: 0.75rem;
+    width: 100%;
+    max-width: 400px;
+    padding: 0.4rem;
 }
 
 table {
-    margin-top: 15px;
     border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
 }
 
-th, td {
-    padding: 10px;
-    border: 1px solid black;
+th,
+td {
+    border: 1px solid #999999;
+    padding: 0.5rem;
+    text-align: left;
+}
+.decorative-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
-th {
-    background-color: #dddddd;
-    font-weight: bold;
+.decorative-image {
+    width: 120px;
+    height: auto;
 }
